@@ -1,0 +1,23 @@
+[Eagle]
+Version="07 03 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/EAGLE-7.3.0/lbr/rcl.lbr"
+UsedLibrary="jack.lbr"
+UsedLibrary="Panasonic-ELL.lbr"
+UsedLibrary="Molex-47346-0001.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="276 169 875 568"
+State=2
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
