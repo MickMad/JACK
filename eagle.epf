@@ -14,7 +14,7 @@ UsedLibrary="Molex-47346-0001.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="270 176 869 575"
+Loc="-8 -30 740 369"
 State=2
 Number=0
 
