@@ -6610,8 +6610,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="1.6002" y1="-1.6002" x2="1.6002" y2="1.6002" width="0.1524" layer="51"/>
 <wire x1="1.6002" y1="1.6002" x2="-1.6002" y2="1.6002" width="0.1524" layer="51"/>
 <wire x1="-1.6002" y1="1.6002" x2="-1.6002" y2="-1.6002" width="0.1524" layer="51"/>
-<text x="-4.826" y="1.9304" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.6896" y="-4.1148" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-3.556" y="1.9304" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.1496" y="-4.1148" size="1.27" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="IND_ELLYFJ">
 <smd name="1" x="-0.9144" y="0" dx="2.0066" dy="1.0668" layer="1" rot="R90"/>
@@ -8440,8 +8440,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <smd name="M6" x="2.921" y="-2.667" dx="2.375" dy="1.9" layer="1"/>
 <text x="5.3" y="-4.1" size="0.5" layer="49">PCB Front Edge</text>
 <text x="5.1" y="-4.8" size="0.5" layer="49">Conn. Front Interface</text>
-<text x="-2.8" y="1.5" size="2.0828" layer="25" ratio="10">&gt;Name</text>
-<text x="-3.2" y="-7.6" size="2.0828" layer="27" ratio="10">&gt;Value</text>
+<text x="-2.8" y="1.5" size="1.27" layer="25" ratio="10">&gt;Name</text>
+<text x="-3.2" y="-6.33" size="1.27" layer="27" ratio="10">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -9084,8 +9084,8 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="D1" library="diode" deviceset="BAT60J" device=""/>
 <part name="D2" library="diode" deviceset="BAT60J" device=""/>
 <part name="U$1" library="jack" deviceset="AGND" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X22" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X22" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X22" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9137,8 +9137,8 @@ Source: www.st.com, BAT60J.pdf</description>
 <instance part="D1" gate="G$1" x="-97.79" y="-44.45" rot="R270"/>
 <instance part="D2" gate="G$1" x="-105.41" y="-44.45" rot="R270"/>
 <instance part="U$1" gate="G$1" x="-19.05" y="-45.72"/>
-<instance part="JP1" gate="A" x="30.48" y="-68.58" rot="MR0"/>
 <instance part="JP2" gate="A" x="54.61" y="-71.12" rot="R180"/>
+<instance part="JP1" gate="A" x="30.48" y="-68.58" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -9227,6 +9227,16 @@ Source: www.st.com, BAT60J.pdf</description>
 <junction x="142.24" y="-7.62"/>
 <pinref part="GND9" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-43.18" x2="38.1" y2="-43.18" width="0.1524" layer="91"/>
+<label x="38.1" y="-43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="1"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-43.18" x2="62.23" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="22"/>
+<label x="62.23" y="-43.18" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VDDCORE" class="0">
 <segment>
@@ -9270,6 +9280,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <junction x="-64.77" y="-48.26"/>
 <junction x="-64.77" y="-50.8"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-48.26" x2="62.23" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="20"/>
+<label x="62.23" y="-48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VDDANA" class="0">
 <segment>
@@ -9282,6 +9297,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="-39.37" y1="-35.56" x2="-31.75" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="-31.75" y="-35.56"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-60.96" x2="38.1" y2="-60.96" width="0.1524" layer="91"/>
+<label x="38.1" y="-60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="D+OUT" class="0">
@@ -9390,6 +9410,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="-64.77" y1="31.75" x2="-64.77" y2="30.48" width="0.1524" layer="91"/>
 <label x="-63.5" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-60.96" x2="62.23" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="15"/>
+<label x="62.23" y="-60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -9413,6 +9438,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="133.35" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
 <label x="132.08" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-96.52" x2="62.23" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<label x="62.23" y="-96.52" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="XOUT" class="0">
 <segment>
@@ -9428,6 +9458,11 @@ Source: www.st.com, BAT60J.pdf</description>
 <junction x="151.13" y="2.54"/>
 <wire x1="151.13" y1="2.54" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
 <label x="152.4" y="2.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-93.98" x2="62.23" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<label x="62.23" y="-93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9449,11 +9484,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA00/XINT0/SC1-P0/TCC2-0"/>
 <wire x1="-15.24" y1="22.86" x2="-16.51" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-48.26" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
+<label x="38.1" y="-48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="3"/>
+</segment>
 </net>
 <net name="2" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA01/XI1/SC1-P1/TCC2-1"/>
 <wire x1="-15.24" y1="20.32" x2="-16.51" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-50.8" x2="38.1" y2="-50.8" width="0.1524" layer="91"/>
+<label x="38.1" y="-50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="3" class="0">
@@ -9461,11 +9506,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA02/XI2/AIN0/Y0/VOUT"/>
 <wire x1="-15.24" y1="17.78" x2="-16.51" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-53.34" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
+<label x="38.1" y="-53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="5"/>
+</segment>
 </net>
 <net name="4" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA03/XI3/ADC-VREFA/DAC-VREFP/AIN1/Y1"/>
 <wire x1="-15.24" y1="15.24" x2="-16.51" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-55.88" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
+<label x="38.1" y="-55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="7" class="0">
@@ -9473,11 +9528,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PB08/XI8/AIN2/Y14/SC4-P0/TC4-0"/>
 <wire x1="-15.24" y1="12.7" x2="-16.51" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-63.5" x2="38.1" y2="-63.5" width="0.1524" layer="91"/>
+<label x="38.1" y="-63.5" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="9"/>
+</segment>
 </net>
 <net name="8" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PB09/XI9/AIN3/Y15/SC4-P1/TC4-1"/>
 <wire x1="-15.24" y1="10.16" x2="-16.51" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-66.04" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
+<label x="38.1" y="-66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="9" class="0">
@@ -9485,11 +9550,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA04/XI4/ADC-VREFP/AIN4/AIN0/Y2/SC0-P0/TCC0-0"/>
 <wire x1="-15.24" y1="7.62" x2="-16.51" y2="7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-68.58" x2="38.1" y2="-68.58" width="0.1524" layer="91"/>
+<label x="38.1" y="-68.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="11"/>
+</segment>
 </net>
 <net name="10" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA05/XI5/AIN5/AIN1/Y3/SC0-P1/TCC0-1"/>
 <wire x1="-15.24" y1="5.08" x2="-16.51" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-71.12" x2="38.1" y2="-71.12" width="0.1524" layer="91"/>
+<label x="38.1" y="-71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="12"/>
 </segment>
 </net>
 <net name="11" class="0">
@@ -9497,11 +9572,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA06/XI6/AIN6/AIN2/Y4/SC0-P2/TCC1-0"/>
 <wire x1="-15.24" y1="2.54" x2="-16.51" y2="2.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-73.66" x2="38.1" y2="-73.66" width="0.1524" layer="91"/>
+<label x="38.1" y="-73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="13"/>
+</segment>
 </net>
 <net name="12" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA07/XI7/AIN7/AIN3/Y5/SC0-P3/TCC1-1/I2S-SD0"/>
 <wire x1="-15.24" y1="0" x2="-16.51" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-76.2" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
+<label x="38.1" y="-76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="14"/>
 </segment>
 </net>
 <net name="47" class="0">
@@ -9521,11 +9606,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PB22/XI6/SC5-P2/TC7-0/GCLK_IO0"/>
 <wire x1="-15.24" y1="-10.16" x2="-16.51" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-71.12" x2="62.23" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="11"/>
+<label x="62.23" y="-71.12" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="38" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PB23/XI7/SC5-P3/TC7-1/GCLK_IO1"/>
 <wire x1="-15.24" y1="-12.7" x2="-16.51" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-68.58" x2="62.23" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="12"/>
+<label x="62.23" y="-68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="39" class="0">
@@ -9533,11 +9628,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PB27/XI15/GCLK_IO0"/>
 <wire x1="-15.24" y1="-15.24" x2="-16.51" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-66.04" x2="62.23" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="13"/>
+<label x="62.23" y="-66.04" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="41" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PB28/XI8/GCLK_IO0"/>
 <wire x1="-15.24" y1="-20.32" x2="-16.51" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-58.42" x2="62.23" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="16"/>
+<label x="62.23" y="-58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="45" class="0">
@@ -9545,11 +9650,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA30/XI10/SC1-P2/TCC1-0/CORTEX_M0P-SWCLK/GCLK_IO0"/>
 <wire x1="-15.24" y1="-22.86" x2="-16.51" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-55.88" x2="62.23" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="17"/>
+<label x="62.23" y="-55.88" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="46" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA31/XI11/SC1-P3/TCC1-1"/>
 <wire x1="-15.24" y1="-25.4" x2="-16.51" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-53.34" x2="62.23" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="18"/>
+<label x="62.23" y="-53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="32" class="0">
@@ -9557,11 +9672,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA23/XI7/X11/SC3-P1/SC5-P1/TC4-1/TCC0-5/USB-SOF/GCLK_IO7"/>
 <wire x1="106.68" y1="-20.32" x2="107.95" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-73.66" x2="62.23" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="10"/>
+<label x="62.23" y="-73.66" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="31" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA22/XI6/X10/SC3-P0/SC5-P0/TC4-0/TCC0-4/GCLK_IO6"/>
 <wire x1="106.68" y1="-17.78" x2="107.95" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-76.2" x2="62.23" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="9"/>
+<label x="62.23" y="-76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="30" class="0">
@@ -9569,11 +9694,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA21/XI5/X9/SC5-P3/SC3-P3/TC7-1/TCC0-7/I2S-FS0/GCLK_IO5"/>
 <wire x1="106.68" y1="-15.24" x2="107.95" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-78.74" x2="62.23" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="8"/>
+<label x="62.23" y="-78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="29" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA20/XI4/X8/SC5-P2/SC3-P2/TC7-0/TCC0-6/I2S-SCK0/GCLK_IO4"/>
 <wire x1="106.68" y1="-12.7" x2="107.95" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-81.28" x2="62.23" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="7"/>
+<label x="62.23" y="-81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="28" class="0">
@@ -9581,11 +9716,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA19/XI3/X7/SC1-P3/SC3-P3/TC3-1/TCC0-3/I2S-SD0/AC-CMP1"/>
 <wire x1="106.68" y1="-10.16" x2="107.95" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-83.82" x2="62.23" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="6"/>
+<label x="62.23" y="-83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="27" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA18/XI2/X6/SC1-P2/SC3-P2/TC3-0/TCC0-2/AC-CMP0"/>
 <wire x1="106.68" y1="-7.62" x2="107.95" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-86.36" x2="62.23" y2="-86.36" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="5"/>
+<label x="62.23" y="-86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="26" class="0">
@@ -9593,11 +9738,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA17/XI1/X5/SC1-P1/SC3-P1/TCC2-1/TCC0-7/GCLK_IO3"/>
 <wire x1="106.68" y1="-5.08" x2="107.95" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="57.15" y1="-88.9" x2="62.23" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="4"/>
+<label x="62.23" y="-88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="25" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA16/XI0/X4/SC1-P0/SC3-P0/TCC2-0/TCC0-6/GCLK_IO2"/>
 <wire x1="106.68" y1="-2.54" x2="107.95" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-91.44" x2="62.23" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<label x="62.23" y="-91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="22" class="0">
@@ -9605,11 +9760,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA13/XI13/SC2-P1/SC4-P1/TCC2-1/TCC0-7/AC-CMP1"/>
 <wire x1="106.68" y1="5.08" x2="107.95" y2="5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-96.52" x2="38.1" y2="-96.52" width="0.1524" layer="91"/>
+<label x="38.1" y="-96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="22"/>
+</segment>
 </net>
 <net name="21" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA12/XI12/SC2-P0/SC4-P0/TCC2-0/TCC0-6/AC-CMP0"/>
 <wire x1="106.68" y1="7.62" x2="107.95" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-93.98" x2="38.1" y2="-93.98" width="0.1524" layer="91"/>
+<label x="38.1" y="-93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="21"/>
 </segment>
 </net>
 <net name="20" class="0">
@@ -9617,11 +9782,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PB11/XI11/XSC4-P3/TC5-1/TCC0-5/I2S-SCK1/GCLK_IO5"/>
 <wire x1="106.68" y1="10.16" x2="107.95" y2="10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-91.44" x2="38.1" y2="-91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="-91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="20"/>
+</segment>
 </net>
 <net name="19" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PB10/XI10/SC4-P2/TC5-0/TCC0-4/I2S-MCK1/GCLK_IO4"/>
 <wire x1="106.68" y1="12.7" x2="107.95" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-88.9" x2="38.1" y2="-88.9" width="0.1524" layer="91"/>
+<label x="38.1" y="-88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="19"/>
 </segment>
 </net>
 <net name="16" class="0">
@@ -9629,11 +9804,21 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA11/XI22/AIN19/X3/SC0-P3/SC2-P3/TCC1-1/TCC0-3/I2S-FS0/GCLK_IO5"/>
 <wire x1="106.68" y1="15.24" x2="107.95" y2="15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-86.36" x2="38.1" y2="-86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="-86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="18"/>
+</segment>
 </net>
 <net name="15" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA10/XI10/AIN18/X2/SC0-P2/SC2-P2/TCCC1-0/TCC0-2/I2S-SCK0/GCLK_IO4"/>
 <wire x1="106.68" y1="17.78" x2="107.95" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="-83.82" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
+<label x="38.1" y="-83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="17"/>
 </segment>
 </net>
 <net name="14" class="0">
@@ -9641,14 +9826,24 @@ Source: www.st.com, BAT60J.pdf</description>
 <pinref part="IC2" gate="IO" pin="PA09/XI9/AIN17/X1/SC0-P1/SC2-P1/TCC0-1/TCC1-3/I2S-MCK0"/>
 <wire x1="106.68" y1="20.32" x2="107.95" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-81.28" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
+<label x="38.1" y="-81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="16"/>
+</segment>
 </net>
 <net name="13" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA08/NMI/AIN16/X0/SC0-P0/SC2-P0/TCC0-0/TCC1-2/I2S-SD1"/>
 <wire x1="106.68" y1="22.86" x2="107.95" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-78.74" x2="38.1" y2="-78.74" width="0.1524" layer="91"/>
+<label x="38.1" y="-78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="15"/>
+</segment>
 </net>
-<net name="VDDIN" class="0">
+<net name="VDDF" class="0">
 <segment>
 <pinref part="IC2" gate="PWR-IO2" pin="VDDIO"/>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -9674,6 +9869,16 @@ Source: www.st.com, BAT60J.pdf</description>
 <junction x="-19.05" y="-60.96"/>
 <junction x="-19.05" y="-48.26"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="-45.72" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
+<label x="38.1" y="-45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="2"/>
+</segment>
+<segment>
+<wire x1="57.15" y1="-45.72" x2="62.23" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="21"/>
+<label x="62.23" y="-45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -9692,269 +9897,24 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="-105.41" y1="-41.91" x2="-105.41" y2="-39.37" width="0.1524" layer="91"/>
 <label x="-105.41" y="-39.37" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="33.02" y1="-43.18" x2="38.1" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="33.02" y1="-45.72" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="33.02" y1="-48.26" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="33.02" y1="-50.8" x2="38.1" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="4"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="33.02" y1="-53.34" x2="38.1" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="33.02" y1="-55.88" x2="38.1" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="6"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<wire x1="33.02" y1="-58.42" x2="38.1" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="33.02" y1="-60.96" x2="38.1" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="8"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="33.02" y1="-63.5" x2="38.1" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="33.02" y1="-66.04" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="10"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="33.02" y1="-68.58" x2="38.1" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="11"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="33.02" y1="-71.12" x2="38.1" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="12"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="33.02" y1="-73.66" x2="38.1" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="13"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<wire x1="33.02" y1="-76.2" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="14"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="33.02" y1="-78.74" x2="38.1" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="15"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<wire x1="33.02" y1="-81.28" x2="38.1" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="16"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="33.02" y1="-83.82" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="17"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<wire x1="33.02" y1="-86.36" x2="38.1" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="18"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="33.02" y1="-88.9" x2="38.1" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="19"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="33.02" y1="-91.44" x2="38.1" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="20"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="33.02" y1="-93.98" x2="38.1" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="21"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<wire x1="33.02" y1="-96.52" x2="38.1" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="22"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<wire x1="57.15" y1="-43.18" x2="62.23" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="22"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<wire x1="57.15" y1="-45.72" x2="62.23" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="21"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="57.15" y1="-48.26" x2="62.23" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="20"/>
-</segment>
-</net>
-<net name="N$28" class="0">
 <segment>
 <wire x1="57.15" y1="-50.8" x2="62.23" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="19"/>
+<label x="62.23" y="-50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="GNDANA" class="0">
 <segment>
-<wire x1="57.15" y1="-53.34" x2="62.23" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="18"/>
+<wire x1="33.02" y1="-58.42" x2="38.1" y2="-58.42" width="0.1524" layer="91"/>
+<label x="38.1" y="-58.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="7"/>
 </segment>
 </net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="57.15" y1="-55.88" x2="62.23" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="17"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<wire x1="57.15" y1="-58.42" x2="62.23" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="16"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<wire x1="57.15" y1="-60.96" x2="62.23" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="15"/>
-</segment>
-</net>
-<net name="N$33" class="0">
+<net name="40" class="0">
 <segment>
 <wire x1="57.15" y1="-63.5" x2="62.23" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="14"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<wire x1="57.15" y1="-66.04" x2="62.23" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="13"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<wire x1="57.15" y1="-68.58" x2="62.23" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="12"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="57.15" y1="-71.12" x2="62.23" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="11"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<wire x1="57.15" y1="-73.66" x2="62.23" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="10"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<wire x1="57.15" y1="-76.2" x2="62.23" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<wire x1="57.15" y1="-78.74" x2="62.23" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="8"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<wire x1="57.15" y1="-81.28" x2="62.23" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<wire x1="57.15" y1="-83.82" x2="62.23" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="6"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<wire x1="57.15" y1="-86.36" x2="62.23" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<wire x1="57.15" y1="-88.9" x2="62.23" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="4"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<wire x1="57.15" y1="-91.44" x2="62.23" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<wire x1="57.15" y1="-93.98" x2="62.23" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<wire x1="57.15" y1="-96.52" x2="62.23" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<label x="62.23" y="-63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
