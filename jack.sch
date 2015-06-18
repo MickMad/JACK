@@ -8434,14 +8434,14 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <smd name="3" x="0" y="0.508" dx="2.3876" dy="0.45" layer="1" rot="R90"/>
 <smd name="4" x="0.635" y="0.508" dx="2.3876" dy="0.45" layer="1" rot="R90"/>
 <smd name="5" x="1.27" y="0.508" dx="2.3876" dy="0.45" layer="1" rot="R90"/>
-<smd name="M1" x="-2.7178" y="-0.381" dx="1.475" dy="2.1" layer="1" rot="R180"/>
-<smd name="M2" x="2.7178" y="-0.381" dx="1.475" dy="2.1" layer="1" rot="R180"/>
-<smd name="M3" x="-2.921" y="-2.667" dx="2.375" dy="1.9" layer="1"/>
-<smd name="M6" x="2.921" y="-2.667" dx="2.375" dy="1.9" layer="1"/>
+<smd name="M1" x="-2.7178" y="-0.081" dx="1.475" dy="2.6" layer="1" rot="R180"/>
+<smd name="M2" x="2.7178" y="-0.081" dx="1.475" dy="2.6" layer="1" rot="R180"/>
+<smd name="M3" x="-3.321" y="-2.667" dx="2.875" dy="1.9" layer="1"/>
+<smd name="M6" x="3.321" y="-2.667" dx="2.875" dy="1.9" layer="1"/>
 <text x="5.3" y="-4.1" size="0.5" layer="49">PCB Front Edge</text>
 <text x="5.1" y="-4.8" size="0.5" layer="49">Conn. Front Interface</text>
-<text x="-2.8" y="1.5" size="1.27" layer="25" ratio="10">&gt;Name</text>
-<text x="-3.2" y="-6.33" size="1.27" layer="27" ratio="10">&gt;Value</text>
+<text x="0" y="-2.54" size="1.27" layer="25" ratio="10" align="center">&gt;Name</text>
+<text x="0" y="-6.35" size="1.27" layer="27" ratio="10" align="bottom-center">&gt;Value</text>
 </package>
 </packages>
 <symbols>
