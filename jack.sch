@@ -6600,8 +6600,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <text x="-4.9" y="-9.2" size="2.0828" layer="27" ratio="10">&gt;Value</text>
 </package>
 <package name="IND_ELLVXG">
-<smd name="1" x="-1.0414" y="0" dx="3.2004" dy="1.4224" layer="1" rot="R90"/>
-<smd name="2" x="1.0414" y="0" dx="3.2004" dy="1.4224" layer="1" rot="R90"/>
+<smd name="1" x="-1.1" y="0" dx="3.2" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="1.2" y="0" dx="3.2" dy="1.6" layer="1" rot="R90"/>
 <wire x1="2.0066" y1="-1.8542" x2="-2.0066" y2="-1.8542" width="0.1524" layer="39"/>
 <wire x1="-2.0066" y1="-1.8542" x2="-2.0066" y2="1.8542" width="0.1524" layer="39"/>
 <wire x1="-2.0066" y1="1.8542" x2="2.0066" y2="1.8542" width="0.1524" layer="39"/>
@@ -6612,8 +6612,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="1.6002" y1="-1.6002" x2="1.6002" y2="1.6002" width="0.1524" layer="51"/>
 <wire x1="1.6002" y1="1.6002" x2="-1.6002" y2="1.6002" width="0.1524" layer="51"/>
 <wire x1="-1.6002" y1="1.6002" x2="-1.6002" y2="-1.6002" width="0.1524" layer="51"/>
-<text x="-3.556" y="1.9304" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.1496" y="-4.1148" size="1.27" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0" y="1.778" size="1.27" layer="25" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="27" ratio="10" rot="SR0" align="bottom-center">&gt;VALUE</text>
 </package>
 <package name="IND_ELLYFJ">
 <smd name="1" x="-0.9144" y="0" dx="2.0066" dy="1.0668" layer="1" rot="R90"/>
@@ -13208,7 +13208,7 @@ https://hackaday.io/project/6062-jack</text>
 <label x="92.71" y="-80.01" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="LDOIN" class="0">
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="VIN"/>
