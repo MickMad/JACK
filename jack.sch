@@ -12944,7 +12944,7 @@ https://hackaday.io/project/6062-jack</text>
 <instance part="U$1" gate="G$1" x="-71.12" y="-99.06"/>
 <instance part="JP1" gate="A" x="105.41" y="-17.78" rot="MR0"/>
 <instance part="VDD5" gate="G$1" x="-36.83" y="-64.77"/>
-<instance part="LOGO1" gate="G$1" x="124.46" y="-74.93"/>
+<instance part="LOGO1" gate="G$1" x="124.46" y="-76.2"/>
 <instance part="JP2" gate="A" x="129.54" y="-20.32" rot="R180"/>
 <instance part="R4" gate="G$1" x="-52.07" y="-101.6" rot="R180"/>
 <instance part="U$2" gate="G$1" x="-58.42" y="-105.41"/>
