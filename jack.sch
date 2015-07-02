@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6084,7 +6084,7 @@ Auto generated by &lt;i&gt;make-symbol-device-package-bsdl.ulp Rev. 44&lt;/i&gt;
 <rectangle x1="0.6" y1="0.5" x2="1.6" y2="1.25" layer="21"/>
 <rectangle x1="0.6" y1="-1.25" x2="1.6" y2="-0.5" layer="21"/>
 <rectangle x1="-1.6" y1="-1.25" x2="-0.6" y2="-0.5" layer="21"/>
-<text x="0" y="1.524" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.524" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <wire x1="-1.6" y1="-0.2" x2="-1.6" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="-1.6" y1="-0.2" x2="-0.3" y2="-0.2" width="0.127" layer="21"/>
 <wire x1="-0.3" y1="-0.2" x2="-0.3" y2="-1.2" width="0.127" layer="21"/>
@@ -12830,7 +12830,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="jack" deviceset="NUF2221W1T2G" device=""/>
 <part name="GND6" library="cortexm0" deviceset="GND" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402K" value="100nF"/>
-<part name="VDD3" library="jack" deviceset="VDD" device=""/>
 <part name="GND7" library="cortexm0" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="330"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
@@ -12924,7 +12923,6 @@ https://hackaday.io/project/6062-jack</text>
 <instance part="IC1" gate="G$1" x="-62.23" y="-1.27"/>
 <instance part="GND6" gate="G$1" x="-73.66" y="-25.4"/>
 <instance part="C9" gate="G$1" x="53.34" y="-83.82" rot="MR0"/>
-<instance part="VDD3" gate="G$1" x="53.34" y="-67.31"/>
 <instance part="GND7" gate="G$1" x="53.34" y="-91.44"/>
 <instance part="R2" gate="G$1" x="46.99" y="-80.01"/>
 <instance part="R3" gate="G$1" x="53.34" y="-73.66" rot="MR270"/>
@@ -13076,11 +13074,6 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-73.66" y1="2.54" x2="-73.66" y2="1.27" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="1.27" x2="-72.39" y2="1.27" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VBUS"/>
-</segment>
-<segment>
-<pinref part="VDD3" gate="G$1" pin="VDD"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-67.31" x2="53.34" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>
@@ -13237,9 +13230,9 @@ https://hackaday.io/project/6062-jack</text>
 <label x="54.61" y="-80.01" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
-<label x="137.16" y="-17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="12"/>
+<wire x1="132.08" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
+<label x="137.16" y="-12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="14"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -13411,9 +13404,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-21.59" x2="-31.75" y2="-21.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
-<label x="137.16" y="-7.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="16"/>
+<wire x1="132.08" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
+<label x="137.16" y="-22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="48" class="0">
@@ -13422,9 +13415,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-24.13" x2="-31.75" y2="-24.13" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-5.08" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
-<label x="137.16" y="-5.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="17"/>
+<wire x1="132.08" y1="-25.4" x2="137.16" y2="-25.4" width="0.1524" layer="91"/>
+<label x="137.16" y="-25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="37" class="0">
@@ -13433,9 +13426,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-29.21" x2="-31.75" y2="-29.21" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-25.4" x2="137.16" y2="-25.4" width="0.1524" layer="91"/>
-<label x="137.16" y="-25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="132.08" y1="-5.08" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
+<label x="137.16" y="-5.08" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="17"/>
 </segment>
 </net>
 <net name="38" class="0">
@@ -13444,9 +13437,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-31.75" x2="-31.75" y2="-31.75" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
-<label x="137.16" y="-22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="132.08" y1="-7.62" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
+<label x="137.16" y="-7.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="16"/>
 </segment>
 </net>
 <net name="39" class="0">
@@ -13455,9 +13448,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-34.29" x2="-31.75" y2="-34.29" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-20.32" x2="137.16" y2="-20.32" width="0.1524" layer="91"/>
-<label x="137.16" y="-20.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="11"/>
+<wire x1="132.08" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
+<label x="137.16" y="-10.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="15"/>
 </segment>
 </net>
 <net name="41" class="0">
@@ -13690,6 +13683,11 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="132.08" y1="-2.54" x2="137.16" y2="-2.54" width="0.1524" layer="91"/>
 <label x="137.16" y="-2.54" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="-67.31" x2="53.34" y2="-68.58" width="0.1524" layer="91"/>
+<label x="53.34" y="-67.31" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -13733,9 +13731,9 @@ https://hackaday.io/project/6062-jack</text>
 <label x="-31.75" y="-41.91" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
-<label x="137.16" y="-12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="14"/>
+<wire x1="132.08" y1="-17.78" x2="137.16" y2="-17.78" width="0.1524" layer="91"/>
+<label x="137.16" y="-17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="12"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -13745,9 +13743,9 @@ https://hackaday.io/project/6062-jack</text>
 <label x="-31.75" y="-44.45" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-10.16" x2="137.16" y2="-10.16" width="0.1524" layer="91"/>
-<label x="137.16" y="-10.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="15"/>
+<wire x1="132.08" y1="-20.32" x2="137.16" y2="-20.32" width="0.1524" layer="91"/>
+<label x="137.16" y="-20.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="11"/>
 </segment>
 </net>
 </nets>
