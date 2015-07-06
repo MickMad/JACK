@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -13039,11 +13039,6 @@ https://hackaday.io/project/6062-jack</text>
 <pinref part="GND9" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="7.62" x2="113.03" y2="7.62" width="0.1524" layer="91"/>
-<label x="113.03" y="7.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="1"/>
-</segment>
-<segment>
 <wire x1="132.08" y1="7.62" x2="137.16" y2="7.62" width="0.1524" layer="91"/>
 <label x="137.16" y="7.62" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="A" pin="22"/>
@@ -13113,9 +13108,9 @@ https://hackaday.io/project/6062-jack</text>
 <junction x="-81.28" y="-87.63"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-10.16" x2="113.03" y2="-10.16" width="0.1524" layer="91"/>
-<label x="113.03" y="-10.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="107.95" y1="5.08" x2="113.03" y2="5.08" width="0.1524" layer="91"/>
+<label x="113.03" y="5.08" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="D+OUT" class="0">
@@ -13294,9 +13289,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="3.81" x2="-31.75" y2="3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="2.54" x2="113.03" y2="2.54" width="0.1524" layer="91"/>
-<label x="113.03" y="2.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="132.08" y1="-30.48" x2="137.16" y2="-30.48" width="0.1524" layer="91"/>
+<label x="137.16" y="-30.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="2" class="0">
@@ -13305,9 +13300,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="1.27" x2="-31.75" y2="1.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="0" x2="113.03" y2="0" width="0.1524" layer="91"/>
-<label x="113.03" y="0" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="132.08" y1="-33.02" x2="137.16" y2="-33.02" width="0.1524" layer="91"/>
+<label x="137.16" y="-33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="3" class="0">
@@ -13316,9 +13311,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-1.27" x2="-31.75" y2="-1.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-2.54" x2="113.03" y2="-2.54" width="0.1524" layer="91"/>
-<label x="113.03" y="-2.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="132.08" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
+<label x="137.16" y="-27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="4" class="0">
@@ -13327,9 +13322,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-3.81" x2="-31.75" y2="-3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-5.08" x2="113.03" y2="-5.08" width="0.1524" layer="91"/>
-<label x="113.03" y="-5.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="132.08" y1="-35.56" x2="137.16" y2="-35.56" width="0.1524" layer="91"/>
+<label x="137.16" y="-35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="7" class="0">
@@ -13338,9 +13333,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-6.35" x2="-31.75" y2="-6.35" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-12.7" x2="113.03" y2="-12.7" width="0.1524" layer="91"/>
-<label x="113.03" y="-12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="9"/>
+<wire x1="132.08" y1="-40.64" x2="137.16" y2="-40.64" width="0.1524" layer="91"/>
+<label x="137.16" y="-40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="8" class="0">
@@ -13349,9 +13344,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-8.89" x2="-31.75" y2="-8.89" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-15.24" x2="113.03" y2="-15.24" width="0.1524" layer="91"/>
-<label x="113.03" y="-15.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="132.08" y1="-43.18" x2="137.16" y2="-43.18" width="0.1524" layer="91"/>
+<label x="137.16" y="-43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="9" class="0">
@@ -13360,9 +13355,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-11.43" x2="-31.75" y2="-11.43" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-17.78" x2="113.03" y2="-17.78" width="0.1524" layer="91"/>
-<label x="113.03" y="-17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="132.08" y1="-38.1" x2="137.16" y2="-38.1" width="0.1524" layer="91"/>
+<label x="137.16" y="-38.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="10" class="0">
@@ -13371,9 +13366,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-13.97" x2="-31.75" y2="-13.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-20.32" x2="113.03" y2="-20.32" width="0.1524" layer="91"/>
-<label x="113.03" y="-20.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="132.08" y1="-45.72" x2="137.16" y2="-45.72" width="0.1524" layer="91"/>
+<label x="137.16" y="-45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP2" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="11" class="0">
@@ -13382,9 +13377,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-16.51" x2="-31.75" y2="-16.51" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-22.86" x2="113.03" y2="-22.86" width="0.1524" layer="91"/>
-<label x="113.03" y="-22.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="13"/>
+<wire x1="107.95" y1="2.54" x2="113.03" y2="2.54" width="0.1524" layer="91"/>
+<label x="113.03" y="2.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="12" class="0">
@@ -13393,9 +13388,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-30.48" y1="-19.05" x2="-31.75" y2="-19.05" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-25.4" x2="113.03" y2="-25.4" width="0.1524" layer="91"/>
-<label x="113.03" y="-25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="14"/>
+<wire x1="107.95" y1="0" x2="113.03" y2="0" width="0.1524" layer="91"/>
+<label x="113.03" y="0" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="47" class="0">
@@ -13469,21 +13464,11 @@ https://hackaday.io/project/6062-jack</text>
 <pinref part="IC2" gate="IO" pin="PA23/XI7/X11/SC3-P1/SC5-P1/TC4-1/TCC0-5/USB-SOF/GCLK_IO7"/>
 <wire x1="91.44" y1="-39.37" x2="92.71" y2="-39.37" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="132.08" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
-<label x="137.16" y="-27.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="8"/>
-</segment>
 </net>
 <net name="31" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA22/XI6/X10/SC3-P0/SC5-P0/TC4-0/TCC0-4/GCLK_IO6"/>
 <wire x1="91.44" y1="-36.83" x2="92.71" y2="-36.83" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="132.08" y1="-30.48" x2="137.16" y2="-30.48" width="0.1524" layer="91"/>
-<label x="137.16" y="-30.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="30" class="0">
@@ -13491,21 +13476,11 @@ https://hackaday.io/project/6062-jack</text>
 <pinref part="IC2" gate="IO" pin="PA21/XI5/X9/SC5-P3/SC3-P3/TC7-1/TCC0-7/I2S-FS0/GCLK_IO5"/>
 <wire x1="91.44" y1="-34.29" x2="92.71" y2="-34.29" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="132.08" y1="-33.02" x2="137.16" y2="-33.02" width="0.1524" layer="91"/>
-<label x="137.16" y="-33.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="6"/>
-</segment>
 </net>
 <net name="29" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA20/XI4/X8/SC5-P2/SC3-P2/TC7-0/TCC0-6/I2S-SCK0/GCLK_IO4"/>
 <wire x1="91.44" y1="-31.75" x2="92.71" y2="-31.75" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="132.08" y1="-35.56" x2="137.16" y2="-35.56" width="0.1524" layer="91"/>
-<label x="137.16" y="-35.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="28" class="0">
@@ -13513,21 +13488,11 @@ https://hackaday.io/project/6062-jack</text>
 <pinref part="IC2" gate="IO" pin="PA19/XI3/X7/SC1-P3/SC3-P3/TC3-1/TCC0-3/I2S-SD0/AC-CMP1"/>
 <wire x1="91.44" y1="-29.21" x2="92.71" y2="-29.21" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="132.08" y1="-38.1" x2="137.16" y2="-38.1" width="0.1524" layer="91"/>
-<label x="137.16" y="-38.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="4"/>
-</segment>
 </net>
 <net name="27" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA18/XI2/X6/SC1-P2/SC3-P2/TC3-0/TCC0-2/AC-CMP0"/>
 <wire x1="91.44" y1="-26.67" x2="92.71" y2="-26.67" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="132.08" y1="-40.64" x2="137.16" y2="-40.64" width="0.1524" layer="91"/>
-<label x="137.16" y="-40.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="26" class="0">
@@ -13535,21 +13500,11 @@ https://hackaday.io/project/6062-jack</text>
 <pinref part="IC2" gate="IO" pin="PA17/XI1/X5/SC1-P1/SC3-P1/TCC2-1/TCC0-7/GCLK_IO3"/>
 <wire x1="91.44" y1="-24.13" x2="92.71" y2="-24.13" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="132.08" y1="-43.18" x2="137.16" y2="-43.18" width="0.1524" layer="91"/>
-<label x="137.16" y="-43.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="2"/>
-</segment>
 </net>
 <net name="25" class="0">
 <segment>
 <pinref part="IC2" gate="IO" pin="PA16/XI0/X4/SC1-P0/SC3-P0/TCC2-0/TCC0-6/GCLK_IO2"/>
 <wire x1="91.44" y1="-21.59" x2="92.71" y2="-21.59" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="132.08" y1="-45.72" x2="137.16" y2="-45.72" width="0.1524" layer="91"/>
-<label x="137.16" y="-45.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP2" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="22" class="0">
@@ -13602,9 +13557,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="91.44" y1="-3.81" x2="92.71" y2="-3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-35.56" x2="113.03" y2="-35.56" width="0.1524" layer="91"/>
-<label x="113.03" y="-35.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="18"/>
+<wire x1="107.95" y1="-10.16" x2="113.03" y2="-10.16" width="0.1524" layer="91"/>
+<label x="113.03" y="-10.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="15" class="0">
@@ -13613,9 +13568,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="91.44" y1="-1.27" x2="92.71" y2="-1.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-33.02" x2="113.03" y2="-33.02" width="0.1524" layer="91"/>
-<label x="113.03" y="-33.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="17"/>
+<wire x1="107.95" y1="-7.62" x2="113.03" y2="-7.62" width="0.1524" layer="91"/>
+<label x="113.03" y="-7.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="14" class="0">
@@ -13624,9 +13579,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="91.44" y1="1.27" x2="92.71" y2="1.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-30.48" x2="113.03" y2="-30.48" width="0.1524" layer="91"/>
-<label x="113.03" y="-30.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="16"/>
+<wire x1="107.95" y1="-5.08" x2="113.03" y2="-5.08" width="0.1524" layer="91"/>
+<label x="113.03" y="-5.08" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="13" class="0">
@@ -13635,9 +13590,9 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="91.44" y1="3.81" x2="92.71" y2="3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="107.95" y1="-27.94" x2="113.03" y2="-27.94" width="0.1524" layer="91"/>
-<label x="113.03" y="-27.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="15"/>
+<wire x1="107.95" y1="-2.54" x2="113.03" y2="-2.54" width="0.1524" layer="91"/>
+<label x="113.03" y="-2.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="VDDF" class="0">
@@ -13648,11 +13603,6 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="0" y1="-83.82" x2="-5.08" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-5.08" y="-83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="0" y="-83.82"/>
-</segment>
-<segment>
-<wire x1="107.95" y1="5.08" x2="113.03" y2="5.08" width="0.1524" layer="91"/>
-<label x="113.03" y="5.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -13703,11 +13653,6 @@ https://hackaday.io/project/6062-jack</text>
 </net>
 <net name="GNDANA" class="0">
 <segment>
-<wire x1="107.95" y1="-7.62" x2="113.03" y2="-7.62" width="0.1524" layer="91"/>
-<label x="113.03" y="-7.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="A" pin="7"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="PWR-ANA" pin="GNDANA"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-67.31" y1="-95.25" x2="-71.12" y2="-95.25" width="0.1524" layer="91"/>
@@ -13722,6 +13667,11 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="-57.15" y1="-101.6" x2="-58.42" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="AGND"/>
 <wire x1="-58.42" y1="-101.6" x2="-58.42" y2="-102.87" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="7.62" x2="113.03" y2="7.62" width="0.1524" layer="91"/>
+<label x="113.03" y="7.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -13746,6 +13696,58 @@ https://hackaday.io/project/6062-jack</text>
 <wire x1="132.08" y1="-20.32" x2="137.16" y2="-20.32" width="0.1524" layer="91"/>
 <label x="137.16" y="-20.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="A" pin="11"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<wire x1="107.95" y1="-12.7" x2="113.03" y2="-12.7" width="0.1524" layer="91"/>
+<label x="113.03" y="-12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="9"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-15.24" x2="113.03" y2="-15.24" width="0.1524" layer="91"/>
+<label x="113.03" y="-15.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="10"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-17.78" x2="113.03" y2="-17.78" width="0.1524" layer="91"/>
+<label x="113.03" y="-17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="11"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-20.32" x2="113.03" y2="-20.32" width="0.1524" layer="91"/>
+<label x="113.03" y="-20.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="12"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-22.86" x2="113.03" y2="-22.86" width="0.1524" layer="91"/>
+<label x="113.03" y="-22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="13"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-25.4" x2="113.03" y2="-25.4" width="0.1524" layer="91"/>
+<label x="113.03" y="-25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="14"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-27.94" x2="113.03" y2="-27.94" width="0.1524" layer="91"/>
+<label x="113.03" y="-27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="15"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-30.48" x2="113.03" y2="-30.48" width="0.1524" layer="91"/>
+<label x="113.03" y="-30.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="16"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-33.02" x2="113.03" y2="-33.02" width="0.1524" layer="91"/>
+<label x="113.03" y="-33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="17"/>
+</segment>
+<segment>
+<wire x1="107.95" y1="-35.56" x2="113.03" y2="-35.56" width="0.1524" layer="91"/>
+<label x="113.03" y="-35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="18"/>
 </segment>
 </net>
 </nets>
