@@ -1,0 +1,44 @@
+Partlist exported from C:/Users/mperla.CORP/Documents/GitHub/JACK/jack.sch at 16/07/2015 16:05
+
+Part Value             Device          Package            Description                                                            
+C1   100nF             C-EU            C0402K                                                                                    
+C2   100nF             C-EU            C0402K                                                                                    
+C3   100nF             C-EU            C0402K                                                                                    
+C4   100nF             C-EU            C0402K                                                                                    
+C5   100nF             C-EU            C0402K                                                                                  
+C9   100nF             C-EU            C0402K
+
+C8   4.5nF             C-EU            C0402K  
+                                                                                    
+C6   10uF              CPOL-EU         SMC_P                                                                                     
+C7   10uF              CPOL-EU         SMC_P                                                                                                                                                                        
+C10  10uF              CPOL-EU         SMC_P                                                                                     
+C11  10uF              CPOL-EU         SMC_P   
+                                                                                  
+C12  15pF              C-EU            C0402K                                                                                    
+C13  15pF              C-EU            C0402K 
+                                                                                   
+D1   BAT60J            BAT60J          SOD323_ST          Schottky barrier diode                                                 
+D2   BAT60J            BAT60J          SOD323_ST          Schottky barrier diode  
+                                               
+D3   LED               LED             LED-0603           Blue LED                                                               
+IC1  NUF2221W1T2G      NUF2221W1T2G    SOT-363            ON SEMICONDUCTOR NUF2221W1T2G  IC, FILTER, USB, ESD PROTECTION, SOT363 
+IC2  ATSAMD21G18       ATSAMD21G18     TQFP48                                                                                    
+IC3  LDO               LDO             SOT-223-3                                                                                 
+J1   USB-micro         47346-0001      MOLEX_47346-0001   CONN RCPT 5POS MICRO USB R/A  SMD                                      
+
+JP1                    PINHD-1X17      1X17               PIN HEADER                                                             
+JP2                    PINHD-1X17      1X17               PIN HEADER                                                             
+JP3                    PINHD-1X8       1X08               PIN HEADER  
+                                                           
+L1   BLM18EG221        L               0603               Ferrite bead                                                           
+L2   10UH              ELLVFG100MC-VXG IND_ELLVXG         Choke Coils   
+                                                         
+R1   1M                R-EU            R0603                                                                                     
+R2   330               R-EU            R0603                                                                                     
+R3   10K               R-EU            R0603                                                                                     
+R4   0                 R-EU            R0603                                                                                     
+R5   90                R-EU            R0603     
+                                                                                
+SW1  SPST3.5X6MM       SPST3.5X6MM     SWITCH-SMD-3.5X6MM Tactile Switches 3.5X6 SMT TACT TACT SWITCH - Mouser part # 506-FSMSM                                                                                 
+X1   CX-3225 12.288MHz XTALCX-3225     CX-3225                                                                                   
