@@ -38,7 +38,7 @@ R1   1M                R-EU            R0603
 R2   330               R-EU            R0603                                                                                     
 R3   10K               R-EU            R0603                                                                                     
 R4   0                 R-EU            R0603                                                                                     
-R5   90                R-EU            R0603     
+R5   68                R-EU            R0603     
                                                                                 
 SW1  SPST3.5X6MM       SPST3.5X6MM     SWITCH-SMD-3.5X6MM Tactile Switches 3.5X6 SMT TACT TACT SWITCH - Mouser part # 506-FSMSM                                                                                 
 X1   CX-3225 12.288MHz XTALCX-3225     CX-3225                                                                                   
