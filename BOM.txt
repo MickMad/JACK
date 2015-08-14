@@ -24,7 +24,7 @@ D2   BAT60J            BAT60J          SOD323_ST          Schottky barrier diode
 D3   LED               LED             LED-0603           Blue LED                                                               
 IC1  NUF2221W1T2G      NUF2221W1T2G    SOT-363            ON SEMICONDUCTOR NUF2221W1T2G  IC, FILTER, USB, ESD PROTECTION, SOT363 
 IC2  ATSAMD21G18       ATSAMD21G18     TQFP48                                                                                    
-IC3  LDO               LDO             SOT-223-3                                                                                 
+IC3  NCV1117ST33T3G    NCV1117ST33T3G  SOT-223-3          ON Semiconductor LDO 3.3V 1.0A Automotive                                                                       
 J1   USB-micro         47346-0001      MOLEX_47346-0001   CONN RCPT 5POS MICRO USB R/A  SMD                                      
 
 JP1                    PINHD-1X17      1X17               PIN HEADER                                                             
